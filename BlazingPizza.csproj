@@ -3,4 +3,12 @@
 		<TargetFramework>net10.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.12" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.12" />
+	  <!-- <PackageReference Include="System.Net.Http.Json" Version="10.0.12" /> -->
+	   <!-- PackageReference System.Net.Http.Json will not be pruned.
+	   This package is automatically available and does not need to be referenced explicitly.
+	   Remove the PackageReference item. -->
+	</ItemGroup>
 </Project>
