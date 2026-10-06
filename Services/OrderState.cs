@@ -30,4 +30,8 @@ public class OrderState
 	{
 		Order.Pizzas.Remove(pizza);
 	}
+	internal void ResetOrder()
+	{
+		Order = new Order();
+	}
 }
